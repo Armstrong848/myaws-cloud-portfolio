@@ -1,0 +1,146 @@
+/* style.css */
+/* style.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(98, 96, 96);
+  color: #1a1a1a;
+  line-height: 1.7;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background-color: #6c6969;
+  color: #5b21b6;
+  text-align: center;
+  padding: 50px 20px 30px;
+  border-bottom: 3px solid #000000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #000000;
+  margin: 10px 0 25px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #6d28d9;
+  color: rgb(98, 96, 96);
+}
+
+/* Sections */
+section {
+  margin: 35px 0;
+  padding: 30px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #5b21b6;
+  margin-top: 0;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #5b21b6;
+}
+
+/* Project and Education Cards */
+.card {
+  border: 2px solid #000000;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 6px;
+  background-color: #4e4d4d;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 0 #6d28d9;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills span {
+  border: 2px solid #000000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #49494a;
+  color: #4c1d95;
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  color: #5b21b6;
+}
+
+a:hover {
+  color: #000000;
+}
+
+/* Footer */
+footer {
+  text-align: right;
+  padding: 25px;
+  border-top: 3px solid #000000;
+  margin-top: 40px;
+  color: #5b21b6;
+  font-weight: bold;
+}
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+    padding: 7px 10px;
+  }
+}
+
